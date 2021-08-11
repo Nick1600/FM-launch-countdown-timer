@@ -1,0 +1,83 @@
+html {
+    font-size: 14px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 700;
+}
+
+main {
+    background-color: hsl(234, 17%, 12%);
+    text-align: center;
+    height: 100vh;
+    background-image: url('./images/bg-stars.svg');
+}
+
+.title {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.75rem;
+    position: relative;
+    top: 8rem;
+}
+
+/*Counter displays*/
+.counter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 15rem;
+}
+#counter {
+    width: 10%;
+    margin-left: 2rem;
+    font-size: 5rem;
+}
+#display {
+    height: 10rem;
+}
+#top {
+    background-color: hsl(236, 21%, 20%);
+    color: hsla(345, 95%, 68%, 0.8);
+    overflow: hidden;
+    height: 50%
+}
+#bottom {
+    background-color: hsl(236, 21%, 26%);
+    color: hsl(345, 95%, 68%);
+    overflow: hidden;
+    height: 50%
+}
+.label {
+    margin-top: 2rem;
+    color: hsl(237, 18%, 59%);
+    font-size: 1rem;
+    letter-spacing: 0.5rem;
+}
+#dis-top {
+    position: relative;
+    top: 1.7rem;
+}
+#dis-bottom {
+    position: relative;
+    bottom: 3.3rem;
+}
+
+/*background-images*/
+
+.hills {
+    width: 100%;
+    position: absolute;
+    bottom: 0rem;
+    left: 0;
+}
+/*.stars {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 0;
+}*/
