@@ -74,14 +74,14 @@ main {
 .hills {
     width: 100%;
     position: absolute;
-    bottom: 0rem;
+    bottom: 0;
     left: 0;
 }
 
 /*Social links*/
 .social {
     position: relative;
-    top: 30rem;
+    top: 29rem;
 }
 
 #social-logo {
@@ -94,7 +94,7 @@ main {
     fill: hsl(345, 95%, 68%);
 }
 .instagram-logo:hover {
-    fillhsl: (345, 95%, 68%);
+    fill: hsl(345, 95%, 68%);
 }
 
 /*footer*/
@@ -103,4 +103,53 @@ footer {
     bottom: 0.5rem;
     left: 0.5rem;
     color: hsl(237, 18%, 59%);
+}
+.link {
+    text-decoration: none;
+    color: hsl(237, 18%, 59%);
+}
+
+/*media queries*/
+@media only screen and (max-width: 375px) {
+    html {
+        font-size: 10px;
+    }
+    .title {
+        top: 12rem;
+    }
+    .counter-container {
+        top: 18rem;
+    }
+    #counter {
+        width: 19%;
+        font-size: 4rem;
+    }
+    .second-count {
+        margin-right: 2rem;
+    }
+    #display {
+        height: 7rem;
+    }
+    #dis-top {
+        top: 0.8rem;
+    }
+    #dis-bottom {
+        bottom: 2.7rem;
+    }
+    .label {
+        margin-top: 1rem;
+        font-size: 0.8rem;
+        letter-spacing: 0.35rem;
+    }
+    .social {
+        top: 42rem;
+    }
+
+    .hills {
+        width: 325%;
+        left: -180%;
+    }
+    footer {
+        display: none;
+    }
 }
