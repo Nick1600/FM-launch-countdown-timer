@@ -44,13 +44,15 @@ main {
     background-color: hsl(236, 21%, 20%);
     color: hsla(345, 95%, 68%, 0.8);
     overflow: hidden;
-    height: 50%
+    height: 50%;
+    border-radius: 0.5rem;
 }
 #bottom {
     background-color: hsl(236, 21%, 26%);
     color: hsl(345, 95%, 68%);
     overflow: hidden;
-    height: 50%
+    height: 50%;
+    border-radius: 0.5rem;
 }
 .label {
     margin-top: 2rem;
@@ -75,9 +77,21 @@ main {
     bottom: 0rem;
     left: 0;
 }
-/*.stars {
-    width: 100%;
-    height: 100vh;
+
+/*Social links*/
+.social {
     position: relative;
-    z-index: 0;
-}*/
+    top: 30rem;
+}
+
+#social-logo {
+    margin-left: 2rem;
+}
+
+/*footer*/
+footer {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0.5rem;
+    color: hsl(237, 18%, 59%);
+}
