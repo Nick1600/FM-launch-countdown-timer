@@ -87,6 +87,15 @@ main {
 #social-logo {
     margin-left: 2rem;
 }
+.facebook-logo:hover {
+    fill: hsl(345, 95%, 68%);
+}
+.pintrist-logo:hover {
+    fill: hsl(345, 95%, 68%);
+}
+.instagram-logo:hover {
+    fillhsl: (345, 95%, 68%);
+}
 
 /*footer*/
 footer {
